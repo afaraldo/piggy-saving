@@ -1,0 +1,28 @@
+{
+    "short_name": "Piggy Saving",
+    "name": "Piggy Saving",
+    "description": "Finanzas Personales sencilla y divertida",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "icon/lowres.webp",
+        "sizes": "48x48",
+        "type": "image/webp"
+      },
+      {
+        "src": "icon/hd_hi.ico",
+        "sizes": "72x72 96x96 128x128 256x256",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "icon/hd_hi.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      }
+    ]
+  }
+  
