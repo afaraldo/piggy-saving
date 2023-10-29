@@ -2,7 +2,7 @@
     "short_name": "Piggy Saving",
     "name": "Piggy Saving",
     "description": "Finanzas Personales sencilla y divertida",
-    "start_url": "/index.html",
+    "start_url": "https://afaraldo.github.io/piggy-saving/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
