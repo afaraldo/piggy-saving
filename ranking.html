@@ -15,16 +15,19 @@
     }
 </style>
 <body class="bg-gray-100 p-6">
-<div class="flex mb-2" style="align-items: center; justify-content: space-between;">
-    <img src="images/piggy-logo.png" alt="Logo de la App" class="mr-4 flex-initial w-16">
-    <h1 class="text-2xl font-bold flex-initial w-64">Piggy Saving</h1>
-</div>
+  <div class="flex mb-2" style="align-items: center; justify-content: space-between;">
+      <img src="images/piggy-logo.png" alt="Logo de la App" class="mr-0 flex-initial w-16">
+      <h1 class="text-2xl font-bold flex-initial w-64">Piggy Saving</h1>
+      <button class="invisible text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" type="button" data-drawer-target="drawer-example" data-drawer-show="drawer-example" aria-controls="drawer-example">
+        Consejo!
+      </button>
+  </div>
 
 <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
     <h3 class="flex items-center mb-4 text-lg font-semibold text-gray-900 dark:text-white">Ranking de Octubre
         <button data-popover-target="popover-description" data-popover-placement="bottom-end" type="button">
             <svg class="w-4 h-4 ml-2 text-gray-400 hover:text-gray-500" aria-hidden="true" fill="currentColor"
-                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
                       clip-rule="evenodd"></path>
@@ -176,7 +179,7 @@
                                 <div class="medals mt-2 flex">
                                     <div class="hexagon bg-gray-300 w-8 h-8 mr-1 overflow-hidden">
                                         <img src="./docs/images/people/profile-picture-5.png" alt="Medalla 4"
-                                             class="w-full h-full object-cover">
+                                            class="w-full h-full object-cover">
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +233,7 @@
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
         <a href="./ranking.html" data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" width="24px" class="mb-2 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" viewBox="0 0 640 512">
+            <svg  height="24px" width="24px" class="mb-2 text-blue-600 dark:text-blue-600 group-hover:text-blue-600 dark:group-hover:text-blue-500" viewBox="0 0 640 512">
                 <path d="M353.8 54.1L330.2 6.3c-3.9-8.3-16.1-8.6-20.4 0L286.2 54.1l-52.3 7.5c-9.3 1.4-13.3 12.9-6.4 19.8l38 37-9 52.1c-1.4 9.3 8.2 16.5 16.8 12.2l46.9-24.8 46.6 24.4c8.6 4.3 18.3-2.9 16.8-12.2l-9-52.1 38-36.6c6.8-6.8 2.9-18.3-6.4-19.8l-52.3-7.5zM256 256c-17.7 0-32 14.3-32 32V480c0 17.7 14.3 32 32 32H384c17.7 0 32-14.3 32-32V288c0-17.7-14.3-32-32-32H256zM32 320c-17.7 0-32 14.3-32 32V480c0 17.7 14.3 32 32 32H160c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H32zm416 96v64c0 17.7 14.3 32 32 32H608c17.7 0 32-14.3 32-32V416c0-17.7-14.3-32-32-32H480c-17.7 0-32 14.3-32 32z"/>
             </svg>
             <span class="sr-only">Ranking</span>
